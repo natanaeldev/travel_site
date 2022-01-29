@@ -1,0 +1,19 @@
+@use "../utilities/colors" as *;
+@use "../global";
+
+.footer {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  &__section--title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: $blue-color;
+    margin-bottom: 1.5rem;
+  }
+  &__section--logo {
+    margin-left: 2rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}

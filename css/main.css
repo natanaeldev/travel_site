@@ -1,5 +1,6 @@
 body {
   background-color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav {
@@ -65,28 +66,64 @@ body {
   color: #ffffff;
 }
 
+.footer {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__section--title {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #335576;
+  margin-bottom: 1.5rem;
+}
+.footer__section--logo {
+  margin-left: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .recommendations {
   margin: 5rem;
+}
+.recommendations__title {
+  color: #335576;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 .recommendations__cards {
   display: flex;
   flex-direction: row;
-  margin: 1rem;
-  justify-content: space-between;
+  margin: 0.25rem;
+  justify-content: space-evenly;
 }
 .recommendations__card {
   border-radius: 5px;
 }
 .recommendations__img {
   width: 20rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
-
-span {
+.recommendations__card--link {
+  list-style: none;
+  text-decoration: none;
+}
+.recommendations__card--text {
   position: relative;
-  left: -60px;
-  bottom: 5px;
-  color: #ffff;
-  font-size: 10rem;
+  display: flex;
+  justify-content: end;
+  bottom: 3.5rem;
+  right: 1.5rem;
+  color: #ffffff;
+  font-family: 700;
+  font-size: 2rem;
 }
 
 /* Reset */
