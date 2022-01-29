@@ -1,0 +1,30 @@
+@use "../utilities/colors" as *;
+@use "../global";
+
+.recommendations {
+  margin: 5rem;
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    justify-content: space-between;
+  }
+  &__card {
+    // border: 1px solid rgba(0, 4px, 4px, 20%);
+    border-radius: 5px;
+  }
+
+  &__img {
+    width: 20rem;
+    // border: 1px solid rgba(0, 4px, 4px, 20%);
+    // border-radius: 5px;
+  }
+}
+
+span {
+  position: relative;
+  left: -60px;
+  bottom: 5px;
+  color: #ffff;
+  font-size: 10rem;
+}

@@ -1,0 +1,28 @@
+@use "../utilities/colors" as *;
+.nav {
+  margin-top: 0.55rem;
+  margin-right: 5rem;
+  margin-left: 6rem;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    color: $blue-color;
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+  }
+  &__list--li {
+    margin-left: 1rem;
+  }
+  &__list--link {
+    text-decoration: none;
+    color: black;
+  }
+}

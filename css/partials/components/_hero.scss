@@ -1,0 +1,37 @@
+@use "../utilities/colors" as *;
+@use "../global";
+.hero {
+  display: flex;
+  padding: 0rem 7rem 7rem 7rem;
+  justify-content: space-around;
+  background-color: $grey-color;
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+  }
+  &__slogan {
+    color: $blue-color;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  &__paragraph {
+    color: $blue-color;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  &__img {
+    width: 30rem;
+  }
+  &__bottom {
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: $prime-color;
+    text-align: center;
+    width: 9rem;
+    padding: 0.51rem;
+    color: $global-color;
+  }
+}
