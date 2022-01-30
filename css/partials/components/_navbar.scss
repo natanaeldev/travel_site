@@ -15,6 +15,11 @@
     font-size: 1.6rem;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+  }
+  &__title--link {
+    text-decoration: none;
+    color: $blue-color;
   }
 
   &__list {

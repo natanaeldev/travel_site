@@ -4,18 +4,26 @@
 .footer {
   margin: 5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   &__section--title {
     font-weight: 700;
     font-size: 2rem;
     color: $blue-color;
     margin-bottom: 1.5rem;
   }
-  &__section--name {
+  &__section--namehour {
     color: $prime-color;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
   }
   &__section--content {
     color: $blue-color;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 24rem;
   }
   &__section--logo {
     margin-left: 2rem;
