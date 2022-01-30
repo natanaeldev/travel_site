@@ -7,6 +7,7 @@ body {
   margin-top: 0.55rem;
   margin-right: 5rem;
   margin-left: 6rem;
+  margin-bottom: 1rem;
 }
 
 .nav-bar {
@@ -17,10 +18,13 @@ body {
   color: #335576;
   font-weight: 700;
   font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
 }
 .nav-bar__list {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 .nav-bar__list--li {
   margin-left: 1rem;
@@ -28,6 +32,10 @@ body {
 .nav-bar__list--link {
   text-decoration: none;
   color: black;
+}
+
+.current {
+  border-bottom: 2px solid #db7a4e;
 }
 
 .hero {
@@ -67,7 +75,7 @@ body {
 }
 
 .footer {
-  margin: 1rem;
+  margin: 5rem;
   display: flex;
   justify-content: space-around;
 }
@@ -77,10 +85,20 @@ body {
   color: #335576;
   margin-bottom: 1.5rem;
 }
+.footer__section--name {
+  color: #db7a4e;
+}
+.footer__section--content {
+  color: #335576;
+}
 .footer__section--logo {
   margin-left: 2rem;
   width: 2rem;
   height: 2rem;
+}
+.footer__section--name {
+  display: flex;
+  flex-direction: column;
 }
 
 * {
@@ -101,9 +119,6 @@ body {
   flex-direction: row;
   margin: 0.25rem;
   justify-content: space-evenly;
-}
-.recommendations__card {
-  border-radius: 5px;
 }
 .recommendations__img {
   width: 20rem;

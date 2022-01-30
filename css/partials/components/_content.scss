@@ -1,0 +1,22 @@
+@use "../utilities/colors" as *;
+@use "../utilities/content_layout" as *;
+
+@mixin content {
+  @include backgraound;
+  &__card--title {
+    @include title;
+  }
+  &__card--h3 {
+    @include card-h3;
+  }
+  &__card--li {
+    @include card-li;
+  }
+  &__cards {
+    @include cards;
+  }
+  &__card {
+    @include card;
+  }
+}
+// background-image: url(../../../assets/Images/hawaii.jpg);

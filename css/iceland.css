@@ -2,6 +2,7 @@
   margin-top: 0.55rem;
   margin-right: 5rem;
   margin-left: 6rem;
+  margin-bottom: 1rem;
 }
 
 .nav-bar {
@@ -12,10 +13,13 @@
   color: #335576;
   font-weight: 700;
   font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
 }
 .nav-bar__list {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 .nav-bar__list--li {
   margin-left: 1rem;
@@ -23,6 +27,42 @@
 .nav-bar__list--link {
   text-decoration: none;
   color: black;
+}
+
+.current {
+  border-bottom: 2px solid #db7a4e;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+  margin: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__section--title {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #335576;
+  margin-bottom: 1.5rem;
+}
+.footer__section--name {
+  color: #db7a4e;
+}
+.footer__section--content {
+  color: #335576;
+}
+.footer__section--logo {
+  margin-left: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+.footer__section--name {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Reset */
@@ -113,4 +153,51 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+}
+
+.content {
+  background-image: url(../assets/Images/iceland.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90rem;
+  height: 40rem;
+}
+.content__card--title {
+  color: #ffffff;
+  font-size: 5rem;
+  position: relative;
+  display: flex;
+  top: 2rem;
+  left: 3rem;
+}
+.content__card--h3 {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 2.5rem;
+  font-weight: 700;
+  width: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.content__card--li {
+  margin: 1rem;
+  list-style: none;
+}
+.content__cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+  margin-right: 4rem;
+}
+.content__card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid black;
+  text-align: center;
+  width: 15rem;
+  height: 20rem;
 }/*# sourceMappingURL=iceland.css.map */

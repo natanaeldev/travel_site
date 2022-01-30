@@ -156,7 +156,7 @@ video {
 }
 
 .content {
-  background-image: url(../assets/Images/greece.jpg);
+  background-image: url(../../../assets/Images/hawaii.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,4 +200,4 @@ video {
   text-align: center;
   width: 15rem;
   height: 20rem;
-}/*# sourceMappingURL=greece.css.map */
+}/*# sourceMappingURL=Hawaii.css.map */

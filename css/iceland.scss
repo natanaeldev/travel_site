@@ -1,4 +1,6 @@
 @use "./partials/components/navbar";
+@use "./partials/components/content" as *;
+@use "./partials/components/footer";
 /* Reset */
 html,
 body,
@@ -87,4 +89,8 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+}
+.content {
+  background-image: url(../assets/Images/iceland.jpg);
+  @include content;
 }

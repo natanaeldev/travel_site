@@ -2,7 +2,7 @@
 @use "../global";
 
 .footer {
-  margin: 1rem;
+  margin: 5rem;
   display: flex;
   justify-content: space-around;
   &__section--title {
@@ -11,9 +11,20 @@
     color: $blue-color;
     margin-bottom: 1.5rem;
   }
+  &__section--name {
+    color: $prime-color;
+  }
+  &__section--content {
+    color: $blue-color;
+  }
   &__section--logo {
     margin-left: 2rem;
     width: 2rem;
     height: 2rem;
+  }
+
+  &__section--name {
+    display: flex;
+    flex-direction: column;
   }
 }
